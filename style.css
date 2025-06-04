@@ -5,8 +5,8 @@
 }
 
 @font-face { 
-    font-family: tropika; 
-    src: url('tropika-island-int.otf');} 
+    font-family: BLKCHCRY; 
+    src: url('BLKCHCRY.TTF');} 
 
 a {
     color:#1c0000;
@@ -15,14 +15,16 @@ a {
 }
 
 .logo{
+    margin-left: 50px;
     margin-top: 7px;
+    margin-bottom: 2px;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family:'tropika';
+    font-family:'BLKCHCRY';
     background: #460000;
     height: 15vh;
     font-size: 1.5rem;
@@ -35,7 +37,6 @@ nav{
 }
 
 .nav-list li{
-    letter-spacing: 3px;
     margin-left: 32px;
 }
 
